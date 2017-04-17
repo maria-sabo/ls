@@ -3,6 +3,7 @@
     <output-path>$PROJECT_DIR$/out/artifacts/ls_jar</output-path>
     <root id="archive" name="ls.jar">
       <element id="module-output" name="ls" />
+      <element id="extracted-dir" path="C:/#myprogram/args4j-2.33.jar" path-in-jar="/" />
     </root>
   </artifact>
 </component>
