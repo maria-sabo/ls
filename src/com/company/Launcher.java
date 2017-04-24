@@ -43,10 +43,6 @@ public class Launcher {
             parser.printUsage(System.err);
             return;
         }
-      //  System.out.println(flag_l);
-       // System.out.println(flag_h);
-       // System.out.println(flag_r);
-       // System.out.println(OutputFileName);
-       // System.out.println(Input_Dir_or_File);
+        new ls(Input_Dir_or_File).printDir(flag_l, flag_h, flag_r, OutputFileName);
     }
 }
